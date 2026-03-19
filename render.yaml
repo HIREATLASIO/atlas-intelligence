@@ -1,7 +1,9 @@
 # Atlas Intelligence — Render Deployment Config
+# Updated for Next.js static export
+
 services:
   - type: web
-    name: atlas-intelligence
+    name: atlas-pro
     env: static
     buildCommand: npm run build
     staticPublishPath: ./dist
